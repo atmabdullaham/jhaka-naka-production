@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              bebas: ["Bebas Neue", "sans-serif"],
+              montserrat: ["Montserrat", "sans-serif"],
+              colors: {
+                yellow: "#FECC02",
+                offBlack: "#131313",
+                darkGray: "#4E4E4E",
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="w-full h-20  flex justify-center">
+     <nav class="w-4/5 h-full  flex justify-between items-center font-bebas">
+      <h1 class="text-3xl">Jhaka Naka Production </h1>
+      <ul class="flex gap-x-5">
+       <li class="text-xl">About Us</li>
+       <li class="text-xl">Our Movies</li>
+       <li class="text-xl">Services</li>
+      </ul>
+     </nav>
+    </header>
+  </body>
+</html>
